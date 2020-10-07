@@ -20,13 +20,16 @@ body {
 
 /* title */
 #logo {
-  width: 100px;
+  height: 80px;
   vertical-align: middle;
 }
 
 #brand {
   display: inline-block;
   color: white;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
 }
 
 hr {
