@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/bg-wood.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto 0 ;
+}
+
+/* -------------- */
+
+/* title */
+#logo {
+  width: 100px;
+  vertical-align: middle;
+}
+
+#brand {
+  display: inline-block;
+  color: white;
+}
+
+hr {
+  border: 2px solid white;
+  margin: 20px auto;
+}
+/* /title */
+
+/* search-bar */
+#search {
+  padding: 5px;
+}
+
+#submit {
+  padding: 5px 10px;
+  border-radius: 15%;
+}
+
+#unread-text {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#unread-nmb {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+/* /search-bar */
+
+/* mail */
+.row {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.grey{
+  background-color: lightgrey;
+}
+
+.white {
+  background-color: white;
+}
+
+.mail-obj {
+  width: 40%;
+  display: inline-block;
+}
+
+.mail-obj-txt {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.mail-cnt {
+  display: inline-block;
+}
+
+.mail-cnt-txt {
+  color: grey;
+}
+/* /mail */
+
+/* footer */
+footer {
+  color: white;
+  text-align: center;
+}
+
+#bottom-txt {
+  display: inline-block;
+  font-size: 25px;
+}
+
+#copyright {
+  font-style: italic;
+}
+/* footer */
