@@ -68,11 +68,11 @@ hr {
   border: 1px solid black;
 }
 
-.grey{
+.read{
   background-color: lightgrey;
 }
 
-.white {
+.unread {
   background-color: white;
 }
 
